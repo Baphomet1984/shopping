@@ -842,7 +842,7 @@ products.forEach(product => {
       `💰 Precio: ${product.price}\n\n` +
       `¿Está disponible?`
     );
-    window.open(`https://wa.me/?text=${msg}`, '_blank');
+    window.open(`${WA_URL}/?text=${msg}`, '_blank');
   });
 
   wrapper.appendChild(card);
